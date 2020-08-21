@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    font-size: medium;
+}
+
+.date-input__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.date-input--label {
+    display: block;
+}
+
+.input--width-2 {
+    max-width: 5.4ex;
+}
+
+.input--width-4 {
+    max-width: 9ex;
+}
+
+.error {
+    border-color: red;
+    color: red;
+}

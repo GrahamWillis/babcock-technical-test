@@ -1,0 +1,33 @@
+{
+  "name": "babcock-technical-test",
+  "version": "1.0.0",
+  "description": "Babcock Technical Test",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "main": "client/index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Graham Willis",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "standard": "^14.3.4",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
